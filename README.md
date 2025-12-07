@@ -35,11 +35,6 @@ Image Hosting: Cloudinary
 Deployment: Vercel
 
 
-⚙️ Installation
-
-npm install
-npm run dev
-
 
 🌐 Live Demo : 
 https://real-state-next-js-five.vercel.app/
