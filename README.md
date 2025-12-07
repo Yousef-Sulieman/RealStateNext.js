@@ -36,6 +36,7 @@ Deployment: Vercel
 
 
 ⚙️ Installation
+
 npm install
 npm run dev
 
@@ -43,4 +44,3 @@ npm run dev
 🌐 Live Demo : 
 https://real-state-next-js-five.vercel.app/
 
-(ضع الرابط بعد النشر على Vercel)
