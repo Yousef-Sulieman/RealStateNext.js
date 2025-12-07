@@ -14,8 +14,9 @@ function ConnectUserToConex() {
       try {
         await updateUsr({
           userId: user.id,
-          name: user?.firstName,
-          email: user?.primaryEmailAddress?.emailAddress,
+          name: user?.firstName ?? "Unknown",
+          email:
+            user?.primaryEmailAddress?.emailAddress ?? "no-email@example.com",
         });
       } catch (error) {
         console.log("Error syncing user", error);
