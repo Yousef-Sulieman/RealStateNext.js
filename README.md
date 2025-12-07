@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🏡 Real Estate Marketplace
 
-## Getting Started
+A modern full-stack real estate platform built with Next.js, Convex, Clerk Auth & Cloudinary — enabling users to explore, filter, create, edit, and manage property listings in a seamless and responsive experience.
 
-First, run the development server:
+Features :
 
-```bash
+🔍 Advanced Property Search & Filters (price, type, bedrooms, location)
+
+🏘️ Dynamic Property Listings with images, details, and categories
+
+📸 Cloudinary Image Upload for high-quality real estate photos
+
+📝 Create / Edit / Delete Properties (Convex mutations)
+
+⭐ Featured Properties Section
+
+📅 Schedule Viewing with date & time selection
+
+👤 Full Authentication using Clerk
+
+📱 Fully Responsive UI (mobile-first, modern animations)
+
+⚡ Real-time data sync powered by Convex
+
+🧰 Tech Stack
+
+Frontend: Next.js 14, React, Tailwind CSS, ShadCN UI
+
+Backend: Convex (DB, queries, mutations, real-time)
+
+Auth: Clerk
+
+Image Hosting: Cloudinary
+
+Deployment: Vercel
+
+
+⚙️ Installation
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌐 Live Demo : 
+https://real-state-next-js-five.vercel.app/
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+(ضع الرابط بعد النشر على Vercel)
